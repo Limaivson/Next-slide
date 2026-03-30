@@ -38,6 +38,3 @@ def tcp_server():
 
         conn.close()
 
-
-threading.Thread(target=discovery_server, daemon=True).start()
-tcp_server()
